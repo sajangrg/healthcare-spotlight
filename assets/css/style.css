@@ -1,0 +1,725 @@
+* {
+    outline: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #363636;
+}
+
+a {
+    color: #363636;
+    transition: all 0.3s ease;
+    outline: 0;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #363636;
+    text-decoration: none;
+}
+
+iframe {
+    border: 0;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    color: #077395;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+p {
+    margin: 0;
+}
+
+.main {
+    margin-top: 77px;
+}
+
+.primary-nav-wrapper {
+    background: #fff;
+}
+
+.navbar-brand img {
+    width: auto;
+    height: 41px;
+    max-width: 160px;
+    object-fit: contain;
+    object-position: left;
+}
+
+.navbar-nav li.nav-item {
+    padding: 0;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    text-align: center;
+    color: #363636;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #363636;
+    padding: 30px 35px;
+}
+
+.navbar-light .navbar-nav .nav-item.active .nav-link,
+.navbar-light .navbar-nav .mPS2id-highlight-first.nav-link {
+    color: #077395;
+}
+
+
+/* 
+.navbar-light .navbar-nav .nav-item.active .nav-link:before,
+.navbar-light .navbar-nav .mPS2id-highlight-first.nav-link:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #00bfff;
+    height: 9px;
+} */
+
+.navbar-light .navbar-nav .nav-item.active .nav-link.active {
+    background: #00bfff;
+}
+
+.navbar-nav li.nav-item a {
+    padding: 0;
+}
+
+.navbar-toggler img {
+    width: 42px;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    border-color: transparent;
+    border: 0;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:hover {
+    outline: 0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.section-common {
+    padding: 60px 0 72px;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.btn-common {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 38px;
+    min-width: 203px;
+    height: 47px;
+    background: #3CE2AD;
+    color: #000;
+    border-radius: 50px;
+}
+
+.btn-common:hover,
+.btn-common:active,
+.btn-common:focus {
+    color: #000;
+    background: #3CE2AD;
+}
+
+.video-wrapper {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    border: solid 5px #ffffff;
+}
+
+iframe {
+    border: 0;
+}
+
+.banner-content-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.inner-wrapper {
+    margin: 0 0 44px
+}
+
+.banner-content-wrapper h1 {
+    margin: 0 0 15px;
+}
+
+.banner-content-wrapper h2 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    color: #077395;
+    margin: 0 0 16px;
+}
+
+.banner-content-wrapper h3 {
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 88px;
+    color: #3CE2AD;
+    margin: 0 0 16px;
+}
+
+.banner-content-wrapper p {
+    font-size: 18px;
+    line-height: 22px;
+    color: #363636;
+}
+
+.section-banner .banner-bg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.section-why_mc2 {
+    padding: 110px 0;
+}
+
+.section-heading {
+    margin: 0 0 25px;
+}
+
+.section-why_mc2 .section-heading {
+    margin: 0 0 80px;
+}
+
+.section-heading h1 {
+    font-size: 48px;
+    line-height: 59px;
+    color: #363636;
+}
+
+.left-content p {
+    font-size: 22px;
+    line-height: 26px;
+    margin: 0 0 45px;
+}
+
+.icon-list li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.icon-list li img {
+    width: 90px;
+    margin: 0 30px 0 0;
+}
+
+.icon-list li {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 0 0 60px;
+}
+
+.section-courses {
+    padding: 80px 0;
+}
+
+.course-heading {
+    margin: 0 0 38px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.course-heading img {
+    margin: 0 10px 0 0;
+}
+
+.course-heading h2 {
+    font-size: 36px;
+    line-height: 40px;
+    color: #3CE2AD;
+    margin: 0;
+    font-weight: 600;
+}
+
+.common-list-block {
+    margin: 0 0 40px;
+}
+
+.common-list ul {
+    column-count: 2;
+    column-gap: 70px;
+}
+
+.common-list ul li {
+    font-size: 22px;
+    line-height: 29px;
+    color: #000;
+    position: relative;
+    list-style: none;
+    margin: 0 0 26px;
+}
+
+.common-list ul li:before {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: url(../img/icons/green-check.png) no-repeat;
+    top: 3px;
+    left: -40px;
+}
+
+.section-courses .left-content p {
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.section-courses .note p {
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.section-courses .right-content p {
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.section-jobs h1 {
+    margin: 0 0 25px;
+}
+
+.section-jobs p {
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.inner-heading {
+    margin: 0 0 35px;
+}
+
+.inner-heading h3 {
+    font-size: 30px;
+    line-height: 37px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.job-img_wrapper {
+    overflow: hidden;
+    border-radius: 12px;
+    margin: 0 0 35px;
+}
+
+.job_list-single {
+    margin: 0 0 45px;
+}
+
+.job_list-single h3 {
+    font-size: 30px;
+    line-height: 37px;
+    color: #363636;
+    font-weight: 700;
+    margin: 0 0 12px;
+}
+
+.job-img_wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-services .section-heading {
+    margin: 0 0 80px;
+}
+
+.service-item {
+    background: #fff;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 0 70px;
+}
+
+.service-item a {
+    display: flex;
+    align-items: center;
+}
+
+.service-item .img-service-wrapper {
+    width: 254px;
+    min-height: 200px;
+    flex: none;
+}
+
+.service-item .img-service-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.service-item .service-info {
+    width: 100%;
+    height: 100%;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.service-item .service-info h2 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+.faq-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 20px;
+}
+
+.faq-item h2 {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    margin: 0 0 15px;
+}
+
+.faq-item p {
+    font-size: 22px;
+    line-height: 28px;
+    margin: 0 0 10px;
+}
+
+.footer-wrapper {
+    background: #077395;
+    padding: 18px 10px
+}
+
+.footer-wrapper ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-wrapper li {
+    padding: 0 30px 0 0;
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer-wrapper a {
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.footer-wrapper a:hover,
+.footer-wrapper a:focus,
+.footer-wrapper a:active {
+    color: #fff;
+}
+
+
+/* Legal Pages */
+
+.section-legal {
+    min-height: calc(100vh - 133px);
+    background: #fafafa;
+}
+
+.legal-content h1 {
+    font-size: 30px;
+    line-height: 34px;
+    margin: 0 0 20px;
+    color: #000;
+    font-weight: 700;
+    text-shadow: none;
+}
+
+.legal-content h2 {
+    font-size: 22px;
+    line-height: 28px;
+    margin: 0 0 16px;
+    color: #000;
+}
+
+.legal-content h3 {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 0 5px;
+    color: #000;
+}
+
+.legal-content p {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 0 18px;
+    color: #000;
+}
+
+.terms_conditions .legal-content ol {
+    counter-reset: item;
+}
+
+.section-legal ul,
+.section-legal ol {
+    list-style: none;
+    color: #000;
+    padding-left: 0;
+}
+
+.terms_conditions .legal-content>ol>li {
+    margin: 0 0 20px;
+}
+
+.terms_conditions li {
+    margin: 0 0 5px;
+}
+
+.terms_conditions li::marker {
+    font-weight: 400;
+}
+
+.terms_conditions .legal-content>ol>li:before {
+    font-weight: 700;
+}
+
+.terms_conditions .legal-content>ol>li {
+    margin: 0 0 20px;
+}
+
+.terms_conditions p {
+    margin: 0 0 5px;
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 80px);
+}
+
+.terms_conditions .legal-content>ol>li>ol {
+    padding-left: 24px;
+}
+
+.terms_conditions .legal-content>ol>li>ol>li>ol {
+    padding-left: 44px;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 0 15px;
+}
+
+.terms_conditions .legal-content li:before {
+    content: counters(item, ".") " ";
+    counter-increment: item;
+    margin-right: 4px;
+    line-height: 18px;
+}
+
+.terms_conditions .legal-content>ol>li>ol>li>ol>li:before {
+    content: inherit;
+}
+
+.section-legal a {
+    color: #00bfff;
+}
+
+@media (min-width: 1366px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1315px;
+    }
+}
+
+@media(max-width: 1700px) {
+    .section-faq,
+    .section-why_mc2 {
+        background-position: 50% 100% !important;
+    }
+    .section-jobs {
+        background-position: 50% 100% !important;
+    }
+}
+
+@media(max-width: 1366px) {
+    .navbar-nav li.nav-item {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .inner-wrapper {
+        max-width: 750px;
+    }
+}
+
+@media(max-width: 1325px) {
+    .footer-wrapper {
+        padding: 28px 0;
+    }
+    .footer-links a {
+        font-size: 14px;
+    }
+    .navbar-light .navbar-nav a.nav-link.sing-up span.free {
+        font-size: 10px;
+        line-height: 14px;
+    }
+}
+
+@media(max-width: 1199px) {
+    .legal-content h1 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .legal-content h2 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .legal-content p {
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0 0 12px;
+    }
+}
+
+@media(max-width: 1024px) {
+    h1 {
+        font-size: 46px;
+        line-height: 55px;
+    }
+    .btn-link {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .banner-content-wrapper h1,
+    .banner-content-wrapper h2 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .banner-content-wrapper h3 {
+        font-size: 42px;
+        line-height: 48px;
+    }
+    .banner-content-wrapper p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .banner-content-wrapper {
+        max-width: 424px;
+    }
+    .section-heading h1 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .section-why_mc2 {
+        padding: 68px 0;
+    }
+    .section-why_mc2 .section-heading {
+        margin: 0 0 45px;
+    }
+    .section-courses .left-content p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .section-courses .note p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .course-heading h2 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .section-courses .right-content p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .service-item a {
+        display: block;
+    }
+    .service-item .img-service-wrapper {
+        width: 100%;
+        display: inline-block;
+        vertical-align: middle;
+        height: 254px;
+    }
+    .service-item {
+        margin: 0 0 30px;
+        border: 1px solid rgb(0 0 0 / 8%);
+    }
+    .service-item .service-info {
+        display: block;
+    }
+}
+
+@media(max-width: 991px) {
+    .navbar {
+        padding: 10px 0;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 14px 10px;
+    }
+    .navbar-light .navbar-toggler {
+        padding: 0;
+    }
+}
+
+@media(max-width: 767px) {}
+
+@media(max-width: 575px) {
+    .navbar {
+        padding: 10px 15px;
+    }
+    .common-list ul {
+        column-count: 1;
+    }
+    .section-courses {
+        padding: 35px 0;
+    }
+    .job_list-single h3 {
+        font-size: 25px;
+        line-height: 28px;
+    }
+    .section-jobs p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .icon-list ul {
+        padding: 0;
+    }
+    .icon-list li {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 0 32px;
+    }
+    .icon-list li img {
+        width: 50px;
+        margin: 0 20px 0 0;
+    }
+    .section-why_mc2 .section-heading {
+        margin: 0 0 22px;
+    }
+    .section-heading h1 {
+        font-size: 26px;
+        line-height: 35px;
+    }
+}
+
+@media(max-width: 480px) {}
+
+@media(max-width: 450px) {}
+
+@media(max-width: 380px) {}
